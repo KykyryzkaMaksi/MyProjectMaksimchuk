@@ -1,0 +1,10 @@
+import pandas as pd
+df = pd.read_csv('F:/Pablo.txt')
+total_production = df.sum()
+print(total_production)
+
+перед цим створити файлик в блокноті
+Firm1,Firm2,Firm3
+1700,2257,8234
+1399,6367,7294
+2467,3489,8306
